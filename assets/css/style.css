@@ -43,14 +43,17 @@
 }
 header {padding: 0;}
 nav {line-height: 2;}
-#logo {display: flex;}
 #logo > .col {height: 120px;}
 #logo > .col-fixed {max-width: 150px;}
 #logo > .col-fluid {
     flex-grow: 1;
     max-width: calc(100% - 150px);
 }
-#logo img {max-width: 150px;}
+#logo img {
+    max-width: 150px;
+    transition: 0.2s ease-in-out all;
+}
+#logo img:hover {transform: scale(1.1);}
 #logo h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 72px;
