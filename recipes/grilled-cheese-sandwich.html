@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Odin's Eats - Recipes From Valhalla</title>
+        <title>Grilled Cheese Sandwich</title>
 
-        <link href='./assets/css/style.css' rel='stylesheet'>
+        <link href='../assets/css/style.css' rel='stylesheet'>
     </head>
     <body id="app">
         <header class="container">
@@ -22,81 +22,60 @@
             <div class="row">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">All Recipes</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Welcome</li>
+                        <li class="breadcrumb-item"><a href="../index.html">All Recipes</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Grilled Cheese Sandwich</li>
                     </ol>
                 </nav>
             </div>
         </nav>
-        <section id="content" class="container rounded-bottom bg-white text-center">
+        <section id="content" class="container rounded-bottom bg-white">
             <div class="row">
-                <div class="col">
-                    <h1 class="font-styled">~ Today's Menu ~</h1>
+                <div class="col text-center">
+                    <h1 id="title" class="font-styled">~ Grilled Cheese Sandwich ~</h1>
+                    <p>From <a href="https://www.allrecipes.com/recipe/23891/grilled-cheese-sandwich/" target="_blank">Grilled Cheese Sandwich</a> - by <a href="https://www.allrecipes.com/cook/1744">Sara</a></p>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col col-xl-4 col-md-6 col-12">
-                    <div class="card">
-                        <h4 class="card-title">Cheese Lasagna</h4>
-                        <img class="img-fluid" alt="Card image" src="./assets/images/cheese-lasagna-480.webp">
-                        <div class="card-body">
-                            <p class="card-text">
-                                Serve this savory pan from 
-                                <a href="https://www.allrecipes.com/cook/60640" target="_blank">MOLSON7</a>
-                            </p>
-                            <ul class="list-group list-group-flush text-start">
-                                <li class="list-group-item display-6"><i class="bi bi-clipboard-check"></i> Noodles, Cheese, Eggs</li>
-                                <li class="list-group-item display-6"><i class="bi bi-clock-history"></i> 1 hr 5 mins</li>
-                                <li class="list-group-item display-6"><i class="bi bi-people"></i> Serves 8</li>
-                            </ul>
-                            <div class="text-center">
-                                <a href="./recipes/cheese-lasagna.html" class="btn btn-lg btn-primary" role="button"><i class="bi bi-eye"></i> Eye This Dish</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col col-md-6 text-center">
+                    <img class="img-fluid img-thumbnail" src="../assets/images/grilled-cheese-sandwich.webp" alt="a grilled cheese sandwich, cut in half, stacked, and decorated with a sprig of parsley">
                 </div>
-                <div class="col col-xl-4 col-md-6 col-12">
-                    <div class="card">
-                        <h4 class="card-title">Grilled Cheese Sandwich</h4>
-                        <img class="img-fluid" alt="Card image" src="./assets/images/grilled-cheese-sandwich-480.webp">
-                        <div class="card-body">
-                            <p class="card-text">
-                                Sample this hearty favorite from 
-                                <a href="https://www.allrecipes.com/cook/1744" target="_blank">Sara</a>
-                            </p>
-                            <ul class="list-group list-group-flush text-start">
-                                <li class="list-group-item display-6"><i class="bi bi-clipboard-check"></i> Bread, Butter, Cheese</li>
-                                <li class="list-group-item display-6"><i class="bi bi-clock-history"></i> 20 mins</li>
-                                <li class="list-group-item display-6"><i class="bi bi-people"></i> Serves 2</li>
-                            </ul>
-                            <div class="card-text">
-                                <a href="./recipes/grilled-cheese-sandwich.html" class="btn btn-lg btn-primary" role="button"><i class="bi bi-eye"></i> Eye This Dish</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col col-md-6">
+                    <h2>Summary</h2>
+                    <p>Learn how to make a grilled cheese sandwich in a nonstick pan with buttered bread and American Cheddar for a classic hot sandwich.</p>
+
+                    <h2>Ingredients</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action">White Bread</li>
+                        <li class="list-group-item list-group-item-action">Sliced Cheese</li>
+                        <li class="list-group-item list-group-item-action">Butter</li>
+                    </ul>
+                    
+                    <h2>Recipe Instructions</h2>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item list-group-item-action">Butter the bread on one side and place the bread butter-side down on a hot skillet.</li>
+                        <li class="list-group-item list-group-item-action">Top with cheese, then place another slice of bread on top (butter-side up).</li>
+                        <li class="list-group-item list-group-item-action">Cook until the bottom slice is lightly browned, then flip.</li>
+                        <li class="list-group-item list-group-item-action">Continue cooking until the cheese is melted.</li>
+                    </ol>
+
                 </div>
-                <div class="col col-xl-4 col-md-6 col-12">
-                    <div class="card">
-                        <h4 class="card-title">Rotisserie Chicken</h4>
-                        <img class="img-fluid" alt="Card image" src="./assets/images/rotisserie-chicken-480.webp">
-                        <div class="card-body">
-                            <p class="card-text">
-                                Try this delicious meal from 
-                                <a href="https://www.allrecipes.com/cook/780389">Nicole Baloh Korte</a>
-                            </p>
-                            <ul class="list-group list-group-flush text-start indent-">
-                                <li class="list-group-item display-6"><i class="bi bi-clipboard-check"></i> Chicken, Butter, Spices</li>
-                                <li class="list-group-item display-6"><i class="bi bi-clock-history"></i> 1 hr 30 mins</li>
-                                <li class="list-group-item display-6"><i class="bi bi-people"></i> Serves 6</li>
-                            </ul>
-                            <p class="card-text">
-                                <a href="./recipes/rotisserie-chicken.html" class="btn btn-lg btn-primary" role="button"><i class="bi bi-eye"></i> Eye This Dish</a>
-                            </p>
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><a href="../index.html">&lt; All Recipes</a></p>
+                </div>
+                <div class="col">
+                    <p"><a href="#title">^ Back to top</a></p>
                 </div>
             </div>
         </section>
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-12">
+                    
+                </div>
+            </div>
+        </div>
         <footer class="container rounded-top bg-white">
             <div class="row">
                 <div class="col text-center">
